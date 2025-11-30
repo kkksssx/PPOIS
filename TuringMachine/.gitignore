@@ -1,0 +1,133 @@
+## Игнорировать файлы сборки и компиляции ##
+
+# Файлы компиляции C#
+*.csproj.user
+*.user
+*.suo
+*.cache
+*.docstates
+
+# Результаты сборки
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Tt]est[Rr]esult*/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+
+# Файлы пакетов NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+
+# Файлы резервных копий и временные файлы
+*.[Cc]ache
+*.bak
+*.tmp
+*.temp
+
+## Игнорировать файлы IDE ##
+
+# Visual Studio
+.vs/
+.vscode/
+*.swp
+*~
+*.pidb
+*.log
+*.scc
+
+# Rider
+.idea/
+*.sln.iml
+
+## Игнорировать системные файлы ##
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+## Игнорировать файлы тестирования ##
+
+# Coverage reports
+coverage.xml
+*.coverage
+*.coveragexml
+
+# Visual Studio code coverage results
+*.gcov
+*.lcov
+
+## Игнорировать настройки пользователя ##
+
+# User-specific files
+*.userprefs
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+## Игнорировать выходные данные ##
+
+# Выходные файлы документации
+[Dd]ocs/[Aa]pi/
+doc/
+Documentation/
+*.docfx/
+
+# Файлы развертывания
+[Bb]uild[Oo]utput/
+[Pp]ublish/
+
+## Игнорировать файлы пакетов ##
+
+# NuGet
+NuGet.exe
+*.nupkg
+*.snupkg
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+## Игнорировать логи и отчеты ##
+
+# Файлы журналов
+*.log
+*.etl
+*.trace
+
+# Отчеты тестирования
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Игнорировать временные файлы ##
+
+# Временные файлы OpenCover
+*.opencover.xml
+
+# Файлы резервных копий
+_ReSharper.*
+*.orig
+
+## Игнорировать специфичные для проектов файлы ##
+
+# Файлы проекта Unity (если есть)
+[Tt]emp/
+[Ll]ibrary/
+
+# Файлы проекта Godot (если есть)
+*.import
